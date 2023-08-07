@@ -75,3 +75,8 @@ input {
   font-size: 16px;
   cursor: pointer;
 }
+
+p {
+  color: #514c75;
+  font-size: 20px;
+}

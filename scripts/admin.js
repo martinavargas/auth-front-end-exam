@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const isAdmin = checkRole()
 
     if(!isAdmin) {
-      p.textContent = 'No estas autorizado'
+      p.textContent = 'You are not authorized'
       button.disabled = true
       return
     }
