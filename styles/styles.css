@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(62, 54, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+
+.form-login {
+  width: 400px;
+  background: #27243c;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0 5px 5px #1e28324b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  width: 400px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #27243c;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0 5px 5px #1e28324b;
+}
+
+
+.form-login h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(218, 214, 214);
+  text-align: center;
+}
+
+.data {
+  width: 100%;
+  background: #27243c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #444062;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+input {
+  color: rgb(218, 214, 214);
+}
+
+#login {
+  border-radius: 10px;
+  width: 100%;
+  background: #444062;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
